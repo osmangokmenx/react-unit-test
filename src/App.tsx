@@ -89,7 +89,9 @@ export const App = () => {
                   >
                     Login
                   </Button>
-                  <Text color="tomato">{error}</Text>
+                  <Text color="tomato" data-testid="error-message">
+                    {error}
+                  </Text>
                 </Stack>
               </form>
             </Box>
